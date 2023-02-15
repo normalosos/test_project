@@ -10,8 +10,6 @@ public class Main {
 
         int count = 0;
 
-        System.out.println(count);
-
         for (int i = 0; i < S.length(); i++) {
             for (int j = 0; j < J.length(); j++) {
                 if (S.charAt(i) == J.charAt(j)) {
